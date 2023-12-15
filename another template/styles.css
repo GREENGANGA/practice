@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family:'Montserrat',sans-serif;
+}
+.container{
+    margin:0px auto;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* header start */
+
+header{
+   background-color: blueviolet;
+}
+.header-wrapper{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 10px;
+}
+.header-wrapper ul{
+    padding: 10px;
+    display: flex;
+    gap:30px;
+}
+.header-wrapper ul a{
+    color: azure;
+}
+.header-wrapper h1 a{
+    color:azure;
+}
+.header-wrapper ul a:hover{
+    color: rgb(237, 135, 11)
+}
+.header-wrapper h1 a:hover{
+    color: rgb(27, 209, 209);
+}
+/* header end */
+
+/* section start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px auto;
+}
+.banner>div{
+    width: 50%;
+}
+.banner>div:last-child img{
+    width:100%;
+}
+.banner>div:first-child p{
+    margin: 30px auto;
+}
+.banner>div:first-child{
+    padding: 30px;
+}
+.banner>div:first-child>div a:first-child{
+    background-color: rgb(238, 255, 0);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.banner>div:first-child>div a:last-child{
+    color:black;
+}
+.banner>div:first-child h1 span c{
+    color: blueviolet;
+}
+.banner>div:first-child p span{
+    color: rgb(91, 90, 90);
+}
+
+/* section end */
+
+/* aside start */
+
+.box{
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.box>div:nth-child(1){
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box>div:nth-child(1) h2{
+    margin-bottom: 20px;
+}
+.box>div:nth-child(1) p{
+    margin: 20px auto;
+}
+.box>div:nth-child(1) a{
+   color: #fff;
+}
+.box>div:nth-child(1) a:first-child{
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right:30px;
+ }
+.box>div:nth-child(2){
+    background-color: rgb(99, 7, 184);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box>div:nth-child(2) h2{
+    margin-bottom: 20px;
+}
+.box>div:nth-child(2) p{
+    margin: 20px auto;
+}
+.box>div:nth-child(2) a{
+    color: #fff;
+ }
+ .box>div:nth-child(2) a:first-child{
+     border: 3px solid #fff;
+     border-radius: 8px;
+     padding: 5px;
+     margin-right:30px;
+  }
+.box>div:nth-child(3){
+    background-color: rgb(141, 65, 10);
+    color:#fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box>div:nth-child(3) h2{
+    margin-bottom: 20px;
+}
+.box>div:nth-child(3) p{
+    margin: 20px auto;
+}
+.box>div:nth-child(3) a{
+    color: #fff;
+}
+.box>div:nth-child(3) a:first-child{
+    border: 3px solid #fff;
+    background-color:rgb(201, 139, 6);
+    border-radius: 8px;
+    padding: 5px;
+    margin-right:30px;
+}
+
+/* aside end */
+
+/* footer start */
+
+footer{
+    background-color:gray;
+    padding: 30px;
+    text-align:center;
+    margin-top:80px;
+}
+
+/* footer end */
+
+/* media quary start */
+
+@media screen and (max-width: 600px) {
+    .header-wrapper{
+        text-align:center;
+        display: block;
+    }
+    .header-wrapper ul{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 850px){
+    .banner{
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+    .banner>div{
+        width: 100%;
+    }
+    .banner>div:first-child h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .banner>div:last-child img{
+        margin: 30px auto;
+    }
+}
+@media screen and (min-width: 1100px){
+    .banner>div:first-child h1 span{
+        display:block;
+    }
+    .banner>div:first-child h1{
+        font-size: 40px;
+        font-weight: 600;
+        font-style: sans-serif;
+    }
+    .banner>div:first-child span{
+        display:block;
+    }
+}
+@media screen and (min-width: 1400px){
+    .banner>div:first-child p{
+        margin: 50px auto;
+    }
+    .banner>div:first-child h1{
+        font-size: 48px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 500px){
+    .banner>div:first-child>div a:first-child{
+        margin:auto;
+    }
+
+    .banner>div:first-child>div a{
+        display: block;
+    }
+    .banner>div:first-child>div a:last-child{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 990px){
+    .box{
+        display: block;
+    }
+    .box>div:nth-child(2){
+        margin: 30px auto;
+    }
+}
+
+/* media quary start */

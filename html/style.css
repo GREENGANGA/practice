@@ -1,0 +1,87 @@
+body{
+    background-color: beige;
+    color: red;
+    font-size: 20px;
+    line-height:1.6;
+    margin: 0px;
+    padding:20px;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.box{
+    background-color:white;
+    padding: 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid rgb(236, 17, 17);
+    border-top: 5px solid rgb(213, 223, 22);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.073);
+}
+.context{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ffff;
+}
+.context input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.context textarea{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.context button{
+    width: 100%;
+    color: aqua;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.context button:hover{
+    background-color: #ffff;
+}
+.content-list ol{
+    list-style: none;
+}
+.content-list h3{
+    text-decoration-style: dotted;
+    text-align: center;
+}
+.content-list{
+    border: 3px solid #ccc;
+    margin-top: 20px;
+}
+.content{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+h2{
+    text-align: center;
+    color: #ffff;
+}
+.content ul li:first-child{
+    color:orange;
+}
+.content ul li:last-child{
+    color:rgb(0, 217, 255);
+}
+.content ul li:nth-child(2){
+    color:rgb(255, 225, 0);
+}
+.content div:nth-of-type(2){
+    color: rgb(255, 0, 234);
+}
+.content div:first-of-type{
+    color: rgb(200, 255, 0);
+}
+.content p:nth-of-type(1){
+    color: antiquewhite;
+}
+.content p:nth-of-type(2){
+    color: rgb(247, 144, 8);
+}
+.content b{
+    color: cadetblue;
+}
