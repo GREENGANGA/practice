@@ -1,0 +1,36 @@
+// refferense
+
+// val=document;
+
+// console.log(val);
+
+// document.getElementById();
+
+// console.log(document.getElementById("task-title"));
+// console.log(document.getElementById("task-title").id);
+// console.log(document.getElementById("task-title").className);
+
+const taskTitle=document.getElementById("task-title");
+
+// console.log(taskTitle);
+
+// taskTitle.style.color = 'blue';
+// taskTitle.style.background = 'green';
+// taskTitle.style.animation.split = 'right';
+
+// Change Content
+
+// taskTitle.textContent = 'ri_n';
+
+// document.querySelector();
+
+// console.log(document.querySelector("#task-title")); //id
+// console.log(document.querySelector(".collection-item"));//class
+// console.log(document.querySelector("h5"))//tag
+
+// document.querySelector("li").style.background = "blue";
+// document.querySelector("ul").style.color = "red";
+document.querySelector("ul>li:nth-child(3)").style.background="pink";
+document.querySelector("ul>li:nth-child(odd)").style.color= "yellow";
+document.querySelector("ul>li:nth-child(even)").style.color= "red";
+document.querySelector("ul>li:last-child").textContent="ri_n";
